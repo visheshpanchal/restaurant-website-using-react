@@ -1,4 +1,4 @@
-import Card from "../UI/Card";
+import Card from "../../UI/Card";
 import classes from "./AvailableMeal.module.css";
 import MealIItems from "./MealItems";
 
@@ -37,6 +37,7 @@ const AvailableMeals = (props) => {
         key={meal.id}
         desc={meal.description}
         price={meal.price}
+        id={meal.id}
       />
     );
   });

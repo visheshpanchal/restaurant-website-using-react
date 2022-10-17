@@ -1,5 +1,5 @@
-import AvailableMeals from "./AvailableMeal";
-import MealsSummary from "./MealSummary";
+import AvailableMeals from "./MealItems/AvailableMeal";
+import MealsSummary from "./MealSummary/MealSummary";
 
 const Meals = () => {
   return (
